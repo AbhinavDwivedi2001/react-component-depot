@@ -4,7 +4,7 @@ import AppConfig from "App.config";
 import ExternalInfo from "components/ExternalInfo";
 
 const OTPBox = () => {
-    const [otp, setOtp] = useState(new Array(4).fill(""));
+    const [otp, setOtp] = useState(new Array(6).fill(""));
 
     const handleChange = (element, index) => {
         if (isNaN(element.value)) return false;
